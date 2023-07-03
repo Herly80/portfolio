@@ -114,37 +114,23 @@ h3 {
     color: var(--primario);
 }
 
-.imagen-principal {
-    display: flex;
-    width: 30rem;
-    height: 40rem;
-    justify-content: start;
-    align-items: center;
-}
 
-.imagen-principal img {
-    background-size: cover;
-    height: 50rem;
-}
-
-/**
 .imagen-principal {
-    background-image: url(img/newPerfil5-removebg-preview.png);
+    background-image: url(img/newperfil5-removebg-preview.webp);
     display: flex;
     width: 35rem;
     height: 45rem;
     background-size: cover;
 }
-**/
 .contenido-about {
     line-height: 5rem;
     text-align: center;
-    margin-left: 7rem;
 }
 
 @media (min-width: 768px) {
     .contenido-about {
-        text-align: center;
+        text-align: start;
+        align-items: center;
     }
 }
 
@@ -343,7 +329,14 @@ h3 {
 }
 
 .habilidades {
+    padding-top: 6rem;
     margin-bottom: 8rem;
+}
+
+@media (min-width: 768px) {
+    .habilidades {
+        margin-bottom: 8rem;
+    }
 }
 
 .contenedor-skill {
