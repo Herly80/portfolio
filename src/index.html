@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end Developer</title>
+    <meta name="description" content="Desarrollador web">
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preload" href="https: //fonts.googleapis.com/css2?family= Outfit:wght@400;700 & family= PT +Sans:wght@400;700 & family= Raleway:wght@400;700;900 & family= Staatliches & display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family= Outfit:wght@400;700 & family= PT +Sans:wght@400;700 & family= Raleway:wght@400;700;900 & family= Staatliches & display=swap" rel="stylesheet">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contenedor">
+<header>
+    <div>
+        <div class="barra">
+            <a class="logo" href="index.html" id="inicio">
+                <img src="/logo2SBg.png" alt="">
+            </a>
+            <nav class="navegacion">
+                <a href="#inicio" class="navegacion_enlace">Inicio</a>
+                <a href="#proyectos" class="navegacion_enlace">Proyectos</a>
+                <a href="#habilidades" class="navegacion_enlace">Habilidades</a>
+                <a href="#about" class="navegacion_enlace">Sobre mí</a>
+                <a href="#contacto" class="navegacion_enlace">Contacto</a>
+
+            </nav>
+        </div>
+
+    </div>
+</header>
+
+<main>
+    <div class="contenido-principal">
+        <div class="contenido-imagen">
+            <picture>
+                <div class="imagen-principal"></div>
+            </picture>
+        </div>
+        <div class="contenido-about">
+            <section>
+                <h1>Herly Linarez
+                    <br>
+                <span>Front end Developer</span>
+                </h1>
+            </section>
+            <div class="borde-decoration"></div>
+            <section>
+                <p class="texto-about">
+                    Apasionada en todo lo que hago, dispuesta siempre a enfrentar desafíos, amante de todo lo que indique <em>transformación digital</em> y <em>accesibilidad</em> para lograr una verdadera inclusión. Mi punto único? la versatilidad: lo que me ha impulsado para adaptarme a los entornos de trabajo.
+                </p>
+            </section>
+            <div class="borde-decoration_about"></div>
+            <div class="enlaces">
+                <div class="contenedor-boton">
+                    <button class="boton-CV"><a download="CV_HerlyLinarez" href="CV_julio.pdf">Descargar CV</a></button>
+                </div>
+                <div class="contenedor-redes">
+                <a class="git" href="https://github.com/Herly80" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                      </svg>
+                </a>
+                <a class="lk" href="https://www.linkedin.com/in/herlylinarezperez/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                        <path d="M8 11l0 5" />
+                        <path d="M8 8l0 .01" />
+                        <path d="M12 16l0 -5" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                      </svg>
+                </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="projects" id="proyectos">
+        <h3>Proyectos</h3>
+        <p class="titulo-proyectos">
+            Todo lo que puedas <strong>imaginar</strong>, lo podrás <strong>programar</strong>
+        </p>
+        <div class="botones-filtro">
+            <ul>
+                <li class="filter active" data-nombre="todos">Todos</li>
+                <li class="filter" data-nombre="framework">Framework</li>
+                <li class="filter" data-nombre="wordpress">WordPress</li>
+            </ul>
+        </div>
+        <div class="galeria">
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/LIM018-cipher/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/cipher.png" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Cipher</h4>
+                            <p class="description">Interfaz que permite cifrar y descifrar un mensaje según un número de desplazamiento dado
+                                por el usuario</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/LIM018-data-lovers/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/dataLover.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Pokemon</h4>
+                            <p class="description">Muestra los pokemones en una tarjeta, se puede filtrar por su tipo y también buscar su
+                                Pokémon favorito</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/calculadora/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/calculadora.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Calculadora</h4>
+                            <p class="description">Calculadora que realiza operaciones básicas</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/O-lock/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/reloj.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Reloj</h4>
+                            <p class="description">Reloj análogico</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/O-clock-optimizado/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/relojOptimizado.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Reloj</h4>
+                            <p class="description">Reloj análogico y digital</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/tarjetas-3D/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/CSS.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Tarjetas 3D</h4>
+                            <p class="description">Tarjetas con efecto en 3D</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/playingWithCSS/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/playCSS.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Jugando CSS</h4>
+                            <p class="description">Una divertida interfaz que permite jugar con los atributos que nos brinda CSS</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/Drum_kit/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/bateria.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Bateria Virtual</h4>
+                            <p class="description">Una divertida bateria virtual para escuchar notas musicales con el teclado</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://herly80.github.io/chatFire-vanilla/src/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/chatFire.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Chat Fire</h4>
+                            <p class="description">Un chat que nos permite logearnos con la cuenta de google</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/git.png" alt="">
+                                <img src="./img/bootstrap.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="https://blogdeamantesdelcafe.netlify.app/" target="_blank">
+                    <div class="imagen-projects">
+                        <img src="./img/blog (1).jpg" alt="">
+                    </div>
+                    <div class="texto-projects">
+                        <h4>Blog de café</h4>
+                        <p class="description">Un blog hecho para los amantes del café</p>
+                        <div class="iconos after">
+                            <img src="./img/html-5.png" alt="">
+                            <img src="./img/css-3.png" alt="">
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects framework">
+                    <a href="https://herly80.github.io/AdministrarPacientes/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/pacientes.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Administración de Pacientes</h4>
+                            <p class="description">Una app que nos permite registrar y agendar pacientes en un consultorio, guardando los
+                                datos en localhost</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/git.png" alt="">
+                                <img src="./img/react.png" alt="">
+                                <img src="./img/tailwind.png" alt="">
+                                <img src="./img/vite.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects framework">
+                    <a href="https://herly80.github.io/removebg/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/removeBg.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Remove Background</h4>
+                            <p class="description">Remueve el background de las imágenes y nos permite descargarlas</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/git.png" alt="">
+                                <img src="./img/svelte.png" alt="">
+                                <img src="./img/tailwind.png" alt="">
+                                <img src="./img/vite.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects framework">
+                    <div class="imagen-projects">
+                        <img src="./img/salonBelleza.png" alt="">
+                    </div>
+                    <div class="texto-projects">
+                        <h4>Salón de Belleza</h4>
+                        <p class="description">Una app para administrar los clientes de un salón de belleza</p>
+                        <div class="iconos after">
+                            <img src="./img/construccion.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-projects wordpress">
+                    <a href="https://dev-avilagymfitness.pantheonsite.io/" target="_blank">
+                        <div class="imagen-projects">
+                            <img src="./img/gimnasio.jpg" alt="">
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Gimnasio GymFitness</h4>
+                            <p class="description">Una página web de un gimnasio con diversas secciones incluyendo un blog con comentarios,
+                                creé plugins y temas con PHP y WordPress</p>
+                            <div class="iconos after">
+                                <img src="./img/html-5.png" alt="">
+                                <img src="./img/css-3.png" alt="">
+                                <img src="./img/java-script.png" alt="">
+                                <img src="./img/Wordpress.png" alt="">
+                                <img src="./img/php.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </section>
+
+
+</main>
+
+<section class="habilidades" id="habilidades">
+    <h3>Habilidades</h3>
+    <div class="contenedor-skill">
+        <img src="./img/html-5.png" alt="icono html">
+        <img src="./img/css-3.png" alt="icono hoja de estilos">
+        <img src="./img/java-script.png" alt="icono JavaScript">
+        <img src="./img/react.png" alt="icono de Framework ReactJS">
+        <img src="./img/bootstrap.png" alt="icono de framework CSS Bootstrap">
+        <img src="./img/tailwind.png" alt="icono de framework CSS TailwindCSS">
+        <img src="./img/Wordpress.png" alt="icono de WordPress">
+        <img src="./img/php.png" alt="icono de PHP">
+        <img src="./img/git.png" alt="icono de control de versiones GIT">
+        <img src="./img/vite.png" alt="icono de Vite">
+        <img src="./iconos/scrum.png" alt="icono metodologia scrum">
+        <img src="./iconos/figma.png" alt="icono de Figma">
+        <img src="./iconos/firebase_logo_icon_171157.png" alt="icono base de datos Firebase">
+        <img src="./iconos/sap.png" alt="icono de SAP">
+    </div>
+</section>
+
+<section class="seccion-about" id="about">
+    <h3>Un poco más sobre mí</h3>
+    <article class="before after-about">
+        <p>Soy <strong>Herly</strong>!!, una mujer apasionada con todo lo que hago y ahora con el mundo tech, egresada de Laboratoria, seleccionada entre miles de mujeres para unirse a su programa superando pruebas técnicas y evaluaciones exhaustiva dónde pusieron a prueba mi capacidad de aprendizaje, resolución de problemas y mucha perseverancia. Me gusta asumir retos, por éso decidí a mis 42 años cambiar por completo mi carrera y mi vida. Me gustan los cambios por éso hice match con ésta carrera porque nos obliga a estar en constante aprendizaje día a día. Me encanta leer libros "en físico" y tejer, y si... tengo alma vieja!!</p>
+    </article>
+</section>
+
+<section class="contacto" id="contacto">
+    <h3>Trabajemos juntos!!</h3>
+    <form action="" class="formulario">
+        <div class="campo">
+            <label class="campo__label" for="email">E-mail</label>
+            <input class="campo__field" type="email" id="nombre" placeholder="correo@correo.com">
+        </div>
+        <div class="campo">
+            <label  class="campo__label" for="mensaje">Mensaje</label>
+            <textarea class="campo__field campo__field--textarea" placeholder="Quiero trabajar contigo..." id="mensaje"></textarea>
+        </div>
+        <div class="campo text-center">
+            <input class="boton-contacto" type="submit" value="Enviar">
+         </div>
+    </form>
+</section>
+
+    <script src="js/app.js" type="module"></script>
+    <script src="js/filter.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</body>
+</html>
