@@ -33,6 +33,7 @@ body {
 p {
     margin: 0;
     color: var(--blanco);
+    font-family: var(--fuente-principal);
 }
 
 a {
@@ -53,9 +54,11 @@ h3 {
     color: var(--blanco);
     font-size: 3rem;
     margin-bottom: 0;
+    font-family: var(--fuente-secundaria);
 }
  h4 {
     color: #273BCB;
+    font-family: var(--fuente-secundaria);
  }
 
 .contenedor {
