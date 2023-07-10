@@ -434,6 +434,7 @@ h3 {
     border-radius: .5rem;
     background: transparent;
     color: var(--blanco);
+    width: 100%;
 }
 
 .campo__field--textarea {
