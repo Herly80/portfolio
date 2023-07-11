@@ -9,3 +9,9 @@ window.onscroll = function() {
         barraNav.classList.remove('fixed-top');
     }
 }
+
+const hamburguer = document.querySelector('.hamburguer-menu svg');
+hamburguer.addEventListener('click', function() {
+    const menuPrincipal = document.querySelector('.navegacion');
+    menuPrincipal.classList.toggle('mostrar');
+})
