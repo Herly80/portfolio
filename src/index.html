@@ -512,17 +512,20 @@
 
 <section class="contacto" id="contacto">
     <h3>Trabajemos juntos!!</h3>
-    <form action="" class="formulario">
+    <form action="https://formsubmit.co/herlyyidam@gmail.com" method="POST" class="formulario">
         <div class="campo">
             <label class="campo__label" for="email">E-mail</label>
-            <input class="campo__field" type="email" id="email" placeholder="correo@correo.com">
+            <input class="campo__field" type="email" name="email" id="email" placeholder="correo@correo.com">
         </div>
         <div class="campo">
             <label  class="campo__label" for="mensaje">Mensaje</label>
-            <textarea class="campo__field campo__field--textarea" placeholder="Quiero trabajar contigo..." id="mensaje"></textarea>
+            <textarea class="campo__field campo__field--textarea" name="mensaje" placeholder="Quiero trabajar contigo..." id="mensaje"></textarea>
         </div>
         <div class="campo text-center">
             <input class="boton-contacto" type="submit" value="Enviar">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5501/src">
+            <input type="hidden" name="_captcha" value="false">
          </div>
     </form>
 </section>
