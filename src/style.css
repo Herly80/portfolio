@@ -84,12 +84,15 @@ h3 {
     height: auto;
 }
 
-.barra {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-}
+
+    .barra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+
 
 @media (min-width: 768px) {
     .barra {
@@ -186,6 +189,12 @@ h3 {
     font-family: var(--fuente-principal);
 }
 
+.enlaces {
+    display: flex;
+    padding-top: 4.5rem;
+    gap: 4rem;
+}
+
 .boton-CV {
     background-color: var(--secundario);
     color: var(--blanco);
@@ -201,18 +210,19 @@ h3 {
     background-color: #9C127B;
 }
 
-.enlaces {
-    display: flex;
-    padding-top: 4.5rem;
-    gap: 4rem;
-}
-
-.contenedor-redes {
-    align-items: center;
-}
 .git,
 .lk {
     padding: 1rem;
+    color: #ffffff;
+    transition: color .3s ease;
+}
+
+a.git:hover {
+    color: var(--secundario);
+}
+
+a.lk:hover {
+    color: var(--secundario);
 }
 
 .titulo-proyectos strong {
