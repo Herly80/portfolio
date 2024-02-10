@@ -50,6 +50,12 @@ li {
     color: var(--blanco);
 }
 
+h2  {
+    color: var(--blanco);
+    font-size: 3.5rem;
+    font-family: var(--fuente-principal);
+}
+
 h3 {
     color: var(--blanco);
     font-size: 3rem;
@@ -143,7 +149,7 @@ h3 {
 .contenido-about h1 {
     color: var(--blanco);
     font-family: var(--fuente-principal);
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .contenido-about em {
@@ -153,7 +159,7 @@ h3 {
 
 .contenido-about strong {
     color: var(--primario);
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .contenido-principal {
